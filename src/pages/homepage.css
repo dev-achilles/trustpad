@@ -1,0 +1,254 @@
+section.homepage {
+  background-image: url("https://trustpad-defi.org/img/tpad_smoke.b9863142.00b19c61.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+section.homepage header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+}
+section.homepage header .left {
+  display: flex;
+  align-items: center;
+}
+section.homepage header .left img {
+  vertical-align: middle;
+  height: 4rem;
+  margin-right: 0.5rem;
+}
+
+section.homepage header .left .logo-words {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+section.homepage header .left .logo-words h1 {
+  font-size: 1.25rem;
+  line-height: 0.1rem;
+  font-family: "Rubik Wet Paint", sans-serif;
+}
+
+section.homepage header .left .logo-words p {
+  font-size: 0.75rem;
+  line-height: 0.1rem;
+}
+
+section.homepage header .right {
+  flex: 0.2;
+  text-align: center;
+}
+.is-joined-payload {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.is-joined-payload .addr {
+  background: linear-gradient(90deg, #6825e7, #aa58b8);
+  border-radius: 10px;
+  padding: 0px 15px;
+  /* font-size: 0.7rem; */
+  /* line-height: 0; */
+}
+section.homepage header .right p.con {
+  background: linear-gradient(90deg, #6825e7, #aa58b8);
+  box-shadow: 0 0 24px 0 rgb(133 60 210 / 50%);
+  border: 2px solid #ba84ff;
+  border-radius: 0.5rem;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+section.homepage header .right h5 {
+  font-size: 0.8rem;
+  margin-top: -10px;
+  color: rgb(212 212 212 / var(--tw-text-opacity));
+  opacity: 0.7;
+}
+
+section.middle {
+  display: flex;
+  justify-content: right;
+  padding: 50px;
+  position: relative;
+  /* align-items: flex-end; */
+}
+section.middle > div {
+  margin: 0 10px;
+}
+
+section.middle .left {
+  width: 40%;
+  background-color: #15132e;
+  padding: 20px;
+  position: fixed;
+  left: 20px;
+}
+
+section.middle .left .storm-header {
+  display: flex;
+  align-items: center;
+}
+
+section.middle .left .storm-header img {
+  height: 4rem;
+  border-radius: 9999px;
+  margin-right: 15px;
+}
+section.middle .left .storm-write {
+  text-align: center;
+}
+section.middle .left .storm-write h1 {
+  line-height: 0;
+  font-size: 1.7rem;
+}
+
+section.middle .left .storm-write h5 {
+  color: #10a878;
+  background-color: #0e4644;
+  border-radius: 10px;
+  padding: 2px 0;
+  font-size: 0.7rem;
+}
+
+section.middle .left .storm-write h5 i {
+  margin-right: 10px;
+}
+
+.connect {
+  background-color: #201d37;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: 5px; */
+  border-radius: 15px;
+}
+.connect h5 {
+  font-size: 0.8rem;
+  padding: 0px;
+  line-height: 0;
+}
+.connect p {
+  background: linear-gradient(90deg, #6825e7, #aa58b8);
+  box-shadow: 0 0 24px 0 rgb(133 60 210 / 50%);
+  border: 2px solid #ba84ff;
+  border-radius: 0.5rem;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  /* width: 50%; */
+  /* margin-top: -5px; */
+  font-size: 0.8rem;
+}
+
+section.middle .left h3 {
+  color: #19a5d2;
+  font-weight: 300;
+}
+
+section.middle .left label {
+  font-size: 0.8rem;
+}
+
+section.middle .left progress {
+  width: 100%;
+  background: #fb71ae;
+}
+
+progress {
+  background: #fb71ae;
+  border-radius: 15px !important;
+  /* width: 10px; */
+  height: 8px;
+}
+
+progress::-moz-progress-bar {
+  background: #fb71ae;
+}
+
+progress::-webkit-progress-value {
+  background: #fb71ae;
+}
+
+progress::-webkit-progress-bar {
+  background: #525252;
+}
+
+section.middle .left .total {
+  color: #656471;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+section.middle .right {
+  background-color: #15132d;
+  /* opacity: 0.7; */
+  padding: 20px;
+  width: 55%;
+  border-radius: 10px;
+}
+
+section.middle .right .header {
+  display: flex;
+  align-items: center;
+}
+
+section.middle .right .header img {
+  height: 3rem;
+  margin-right: 1.1rem;
+}
+
+section.middle .right .header h1 {
+  font-size: 1.9rem;
+}
+
+section.middle .right .storm-writeup {
+  font-size: 0.9rem;
+}
+
+section.middle .right img.banner {
+  width: 100%;
+  /* height: 5rem; */
+}
+
+.links {
+  margin-top: 15px;
+}
+
+.links i {
+  margin: 10px;
+  color: #ba84ff;
+  font-size: 2rem;
+}
+
+.links i:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+section.middle .right h2 {
+  font-size: 1rem;
+  color: #fb71ae;
+}
+
+li {
+  list-style: none;
+}
+section.middle .right span {
+  color: #ba84ff;
+}
+
+section.footer {
+  background-color: #12112e;
+  padding: 10px;
+  text-align: center;
+}
+
+section.footer p {
+  font-size: 0.9rem;
+}
